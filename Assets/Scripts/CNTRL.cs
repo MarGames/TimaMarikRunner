@@ -9,7 +9,7 @@ using UnityEngine.Advertisements;
 public class CNTRL : MonoBehaviour, IUnityAdsListener
 {
     private Rigidbody rb;
-    //public Text scoretxt;
+
     public Text coinsText;
     private int coins;
     private int coinsIn1Game;
@@ -23,7 +23,7 @@ public class CNTRL : MonoBehaviour, IUnityAdsListener
     float InvulnerableTimer;
     private bool Shield;
     float shieldTime;
-    //int multiplier;
+
 
     [Header("GameObjects")]
     public GameObject[] players;
